@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha375aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!--Иконки-->
+	<script src="https://kit.fontawesome.com/44911a6d9e.js" crossorigin="anonymous"></script>
+	<!--Carousel-->
+	<link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.css" />
+	<!--My style-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/icons.png" />
+	<title>ChudoZir</title>
+</head>
+
+<body>
+
+	<!--Шапка-->
+	<header>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-7 col-md-4 col-lg-3 col-xl-3 header_logo_wp">
+					<a href="#" data-scroll="#intro">
+						<img src="images/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="col-lg-3 col-xl-4 header_text_wp">
+					<p>Изготовление и продажа очков</p>
+					<p>в Днепре, Каменском, Кривом Роге</p>
+				</div>
+
+				<div class="col-lg-3 col-xl-2 number_header">
+					<a class="number_tel" href="tel:+380963171519">+38 096 3171519</a>
+					<p><span class="bold_header">Пн-Сб</span>: <span>10:00</span> - <span>17:00</span></p>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3 col-xl-3 header_btn_wrp">
+					<a class="header_btn" href="#" data-modal="#popup">Давайте мы перезвоним</a>
+				</div>
+			</div>
+
+			<nav>
+				<ul class="menu_header_nav" id="menu_nav">
+					<li>
+						<a href="#" data-scroll="#accessories">
+							Аксессуары
+						</a>
+					</li>
+					<li>
+						<a href="#" data-scroll="#certificates">
+							Наши сертификаты
+						</a>
+					</li>
+					<li>
+						<a href="#" data-scroll="#contact">
+							Наши контакты
+						</a>
+					</li>
+					<li>
+						<a href="#" data-scroll="#request">
+							Оставить заявку
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!--Бургер-->
+			<button class="burger_menu" id="burger_menu">
+				<span class="burger_item"></span>
+			</button>
+		</div>
+	</header>
+
+	<!--Intro-->
+	<section class="intro_woman" id="intro">
+		<div class="container">
+			<div class="row intro_wrapper">
+				<div class="col-lg-8 col-xl-8 media_intro">
+					<h1 class="intro_title">Очки для коррекции, защиты
+						и улучшения зрения по индивидуальному заказу</h1>
+
+					<ul class="list_intro">
+						<li class="list_items">Оправы и линзы от ведущих производителей
+							из Германии, Франции, Италии, Японии</li>
+						<li class="list_items">Очки обеспечивают комфортность зрения на любом расстоянии для взрослых и детей</li>
+						<li class="list_items">100% точность диагностики зрения за 20 минут</li>
+					</ul>
+
+					<a class="btn_intro media_btn_intro" href="#" data-modal="#popup">Записаться на диагностику зрения</a>
+				</div>
+
+				<div class="popup_wrapper" id="popup">
+					<div class="col-12 col-sm-9 col-md-9 col-lg-4 col-xl-3 popup_forma">
+						<form class="forma_intro_wrp" id="form">
+							<div class="title_form_post">Заполните форму</div>
+							<p class="text_form_intro">чтобы получить в <span>подарок сертификат на 2 000 грн</span>
+								для покупки паркета</p>
+							<input type="hidden" name="title" value="Форма шапки">
+							<input class="input_intro_post" type="text" name="text" placeholder="Ваше имя">
+							<input class="input_intro_post" type="email" name="email" placeholder="Ваш email" required>
+							<input class="input_intro_post" type="tel" name="phone" required placeholder="Ваш телефон">
+
+							<button class="forma_btn_intro">Получить сертификат</button>
+
+							<a class="cross_btn" href="#" data-close>X</a>
+						</form>
+					</div>
+				</div>
+
+
+				<div class="popup_modal">
+
+					<div class="popup_thx_body">
+						<h4>Благодарим Вас!</h4>
+						<p>Ваша заявка отправлена нашему менеджеру.
+							Он перезвонит Вам через 2 минуты.</p>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+
+	<!--Мы хотим быть-->
+	<section class="more_glass">
+		<div class="container">
+			<div class="col-12 site_zir_container">
+				<h3 class="zir_title_h3">
+					Мы хотим быть
+				</h3>
+				<p class="zir_text">максимально полезными для Вас, поэтому:</p>
+			</div>
+
+			<div class="row media_glass">
+				<div class="col-md-5 col-xl-4 items_more_img">
+					<div class="scrin_more">
+						<img src="images/More/img1.png" alt="">
+					</div>
+					<p class="title_more">За 30 лет работы помогли более
+						500 000 клиентам обрести хорошее зрение</p>
+				</div>
+				<div class="col-md-5 col-xl-4 items_more_img">
+					<div class="scrin_more">
+						<img src="images/More/img2.png" alt="">
+					</div>
+					<p class="title_more">Изготовление очков
+						от 40 мин до 3-х дней</p>
+				</div>
+				<div class="col-md-5 col-xl-4 items_more_img">
+					<div class="scrin_more">
+						<img src="images/More/img3.png" alt="">
+						<div class="number_text_more">
+							<span>50%</span>
+						</div>
+					</div>
+					<p class="title_more">Удобный способ оплаты
+						частями - первый платеж до 50%</p>
+				</div>
+			</div>
+
+			<div class="media_glass">
+				<div class="owl-carousel slider2">
+					<div class="col-md-5 col-xl-4 items_more_img">
+						<div class="scrin_more">
+							<img src="images/More/img1.png" alt="">
+						</div>
+						<p class="title_more">За 30 лет работы помогли более
+							500 000 клиентам обрести хорошее зрение</p>
+					</div>
+					<div class="col-md-5 col-xl-4 items_more_img">
+						<div class="scrin_more">
+							<img src="images/More/img2.png" alt="">
+						</div>
+						<p class="title_more">Изготовление очков
+							от 40 мин до 3-х дней</p>
+					</div>
+					<div class="col-md-5 col-xl-4 items_more_img">
+						<div class="scrin_more">
+							<img src="images/More/img3.png" alt="">
+							<div class="number_text_more">
+								<span>50%</span>
+							</div>
+						</div>
+						<p class="title_more">Удобный способ оплаты
+							частями - первый платеж до 50%</p>
+					</div>
+				</div>
+
+				<div class="col-6 col-sm-6 col-md-5 col-lg-4 col-xl-4 reviews-arrow arrow-slider2">
+					<button class="reviews-arrow__btn" id="slider2_left">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="reviews-arrow__btn" id="slider2_right">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Выбирайте из более 2000 видов-->
+	<section class="option_pick">
+		<div class="col-12 site_zir_container">
+			<h3 class="zir_title_h3">
+				Выбирайте из более 2000 видов
+			</h3>
+			<p class="zir_text">оправ, линз и аксессуаров</p>
+		</div>
+		<div class="text_pick">
+			<p>От 40 мировых производителей, среди которых:</p>
+			<p>Seiko, Zeiss, Nikon, Johnson & Johnson, Prada, Tom Ford, Moschino, Blumarine, Gucci, Tom Hart</p>
+		</div>
+
+		<div class="card_pick">
+			<div class="container">
+				<div class="row media_card">
+					<div class="col-11 col-sm-6 col-md-5 col-lg-4 col-xl-4 media_items">
+						<div class="card_items">
+							<div class="title_card">Корригирующие линзы
+								для очков</div>
+							<img class="card_img_pick" src="images/Option/img1.png" alt="img1">
+							<p class="post_card">Предназначены для коррекции отклонений зрения. Устойчивые к царапинам</p>
+							<p class="pos_card_var">... и еще более 100 вариантов</p>
+							<a class="btn_intro card_btn" href="#">узнать стоимость</a>
+						</div>
+					</div>
+
+					<div class="col-11 col-sm-6 col-md-5 col-lg-4 col-xl-4 media_items">
+						<div class="card_items">
+							<div class="title_card">Очки для работы
+								за компьютером</div>
+							<img class="card_img_pick" src="images/Option/img2.png" alt="img2">
+							<p class="post_card">Идеальная защита от света, излучаемого цифровыми экранами.</p>
+							<p class="pos_card_var">... и еще более 100 вариантов</p>
+							<a class="btn_intro card_btn" href="#">узнать стоимость</a>
+						</div>
+					</div>
+
+					<div class="col-11 col-sm-6 col-md-5 col-lg-4 col-xl-4 media_items">
+						<div class="card_items">
+							<div class="title_card">Фотохромные
+								линзы</div>
+							<img class="card_img_pick" src="images/Option/img3.png" alt="img3">
+							<p class="post_card">Улучшают зрение и меняют степень затемнения в зависимости от интенсивности солнечного света.</p>
+							<p class="pos_card_var">... и еще более 100 вариантов</p>
+							<a class="btn_intro card_btn" href="#">узнать стоимость</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card_pick">
+			<div class="container">
+				<div class="row media_card">
+					<div class="col-11 col-sm-6 col-md-5 col-lg-4 col-xl-4 media_items">
+						<div class="card_items">
+							<div class="title_card">Водительские
+								линзы</div>
+							<img class="card_img_pick" src="images/Option/img4.png" alt="img4">
+							<p class="post_card">Увеличивают чёткость в ночное и сумрачное время, препятствуют эффекту ослепления
+							</p>
+							<p class="pos_card_var">... и еще более 100 вариантов</p>
+							<a class="btn_intro card_btn" href="#">узнать стоимость</a>
+						</div>
+					</div>
+
+					<div class="col-11 col-sm-6 col-md-5 col-lg-4 col-xl-4 media_items">
+						<div class="card_items">
+							<div class="title_card">
+								<p class="card_items_pas">Прогрессивные</p> и офисные линзы
+							</div>
+							<img class="card_img_pick" src="images/Option/img5.png" alt="img5">
+							<p class="post_card">Это одна пара очков для всех расстояний. Обеспечивают чёткость зрения вблизи и вдаль.
+							</p>
+							<p class="pos_card_var">... и еще более 100 вариантов</p>
+							<a class="btn_intro card_btn" href="#">узнать стоимость</a>
+						</div>
+					</div>
+
+					<div class="col-11 col-sm-6 col-md-5 col-lg-4 col-xl-4 media_items">
+						<div class="card_items">
+							<div class="title_card">Мягкие контактные
+								линзы</div>
+							<img class="card_img_pick" src="images/Option/img6.png" alt="img6">
+							<p class="post_card">Предназначены для людей, ведущих активный образ жизни. Служат для коррекции зрения.
+							</p>
+							<p class="pos_card_var">... и еще более 100 вариантов</p>
+							<a class="btn_intro card_btn" href="#">узнать стоимость</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Аксессуары-->
+	<section class="accessories_glass" id="accessories">
+		<div class="container">
+			<div class="col-12 site_zir_container">
+				<h3 class="zir_title_h3">
+					Аксессуары для очков
+				</h3>
+				<p class="zir_text">и мягких контактных линз</p>
+			</div>
+
+			<div class="row media_access">
+				<div class="col-10 col-sm-8 col-md-6 col-lg-3 col-xl-3 access_items">
+					<div class="title_accessories">
+						Футляры для очков
+					</div>
+					<a href="#"><img src="images/Accessories/img1.png" alt=""></a>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-3 col-xl-3 access_items">
+					<div class="title_accessories">
+						Салфетки
+					</div>
+					<a href="#"><img src="images/Accessories/img2.png" alt=""></a>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-3 col-xl-3 access_items">
+					<div class="title_accessories">
+						Растворы для хранения
+						мягких контактных линз
+					</div>
+					<a href="#"><img src="images/Accessories/img3.png" alt=""></a>
+				</div>
+
+				<div class="col-11 col-sm-8 col-ms-3 col-md-6 col-md-6 col-lg-3 col-xl-3 access_items">
+					<div class="title_accessories">
+						Дорожные наборы для
+						мягких контактных линз
+					</div>
+					<a href="#"><img src="images/Accessories/img4.png" alt=""></a>
+				</div>
+
+			</div>
+
+			<div class="access_btn">
+				<a class="btn_intro" href="#">Подобрать аксессуары для очков </a>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Компьютерная диагностика-->
+	<div class="stock_section" id="request">
+		<div class="container">
+			<div class="row stock_content">
+				<div class="col-md-6 col-lg-6 col-xl-5 media_stock">
+					<div class="title_stock">Компьютерная диагностика зрения со 100% точностью</div>
+					<p class="text_stock"><span class="stock_span">Оставьте заявку</span> в форме справа чтобы записаться на диагностику Вашего зрения</p>
+				</div>
+
+				<div class="col-md-6 col-lg-5 col-xl-4">
+					<form class="forma_stock_wrp">
+						<div class="title_form_stock">
+							Заполните форму,
+						</div>
+						<p class="text_form_stock">и наш специалист свяжется с Вами для записи на диагностику</p>
+
+						<input type="hidden" name="title" value="Форма Компьютерная диагностика">
+						<input class="input_stock" type="text" name="text" placeholder="Ваше имя">
+						<input class="input_stock" type="tel" name="phone" placeholder="Ваш телефон" required>
+
+						<button class="btn_intro btn_stock">Записаться на диагностику</button>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--Отзывы-->
+	<section class="reviews_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-11 col-sm-12 col-md-10 col-lg-10 col-xl-10 reveews_people">
+					<div class="col-12 site_zir_container review_zir">
+						<h3 class="zir_title_h3">
+							Отзывы
+						</h3>
+						<p class="zir_text">наших клиентов</p>
+					</div>
+
+					<div class="owl-carousel slider1">
+						<div class="review-block">
+							<div class="reviews-scrin">
+								<img class="reviews__photo" src="images/Reviews/img1.jpg" alt="img">
+							</div>
+
+							<div class="review-content">
+								<p class="reviews__text">Судьба Джека Хопкинса привлекла внимание ряда крупных изданий, ей посвящён большой раздел в вышедшем в 2001 году в Великобритании справочнике, который содержит биографии моделей. Взаимоотношениям натурщицы с британским художником-академистом Фредериком Лейтоном посвящены значительные разделы в его биографиях.
+								</p>
+								<div class="reviews__author">Джек Хопкинс</div>
+								<div class="reviews__profess">Администратор</div>
+							</div>
+						</div>
+
+
+						<div class="review-block">
+							<div class="reviews-scrin">
+								<img class="reviews__photo" src="images/Reviews/img2.jpg" alt="img">
+							</div>
+
+							<div class="review-content">
+								<p class="reviews__text">Судьба Дороти Дин привлекла внимание ряда крупных изданий, ей посвящён большой раздел в вышедшем в 2001 году в Великобритании справочнике, который содержит биографии моделей. Взаимоотношениям натурщицы с британским художником-академистом Фредериком Лейтоном посвящены значительные разделы в его биографиях.
+								</p>
+								<div class="reviews__author">Дороти Дин</div>
+								<div class="reviews__profess">Менеджер</div>
+							</div>
+						</div>
+
+						<div class="review-block">
+							<div class="reviews-scrin">
+								<img class="reviews__photo" src="images/Reviews/img3.png" alt="img">
+							</div>
+
+							<div class="review-content">
+								<p class="reviews__text">Судьба Оливии Смит привлекла внимание ряда крупных изданий, ей посвящён большой раздел в вышедшем в 2001 году в Великобритании справочнике, который содержит биографии моделей. Взаимоотношениям натурщицы с британским художником-академистом Фредериком Лейтоном посвящены значительные разделы в его биографиях.
+								</p>
+								<div class="reviews__author">Оливия Смит</div>
+								<div class="reviews__profess">Руководитель</div>
+							</div>
+						</div>
+
+						<div class="review-block">
+							<div class="reviews-scrin">
+								<img class="reviews__photo" src="images/Reviews/img4.png" alt="img">
+							</div>
+
+							<div class="review-content">
+								<p class="reviews__text">Судьба Шарлоты Монро привлекла внимание ряда крупных изданий, ей посвящён большой раздел в вышедшем в 2001 году в Великобритании справочнике, который содержит биографии моделей. Взаимоотношениям натурщицы с британским художником-академистом Фредериком Лейтоном посвящены значительные разделы в его биографиях.
+								</p>
+								<div class="reviews__author">Шарлота Монро</div>
+								<div class="reviews__profess">Сотрудник</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-7 col-md-5 col-lg-4 col-xl-4 reviews-arrow">
+				<button class="reviews-arrow__btn" id="slider1_left">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+				<div class="dots-container"></div>
+				<button class="reviews-arrow__btn" id="slider1_right">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<!--Наша команда-->
+	<section class="command_our">
+		<div class="container">
+			<div class="col-12 site_zir_container">
+				<h3 class="zir_title_h3">
+					Наша команда
+				</h3>
+				<p class="zir_text">специалистов </p>
+			</div>
+
+			<div class="row media_command">
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 col-xl-4 items_img_command">
+					<img class="command_scrin" src="images/Command/img1.png" alt="img1">
+
+					<div class="name_command">Романова Евгения</div>
+					<div class="professio_command">Детский врач офтальмолог,
+						стаж 7 лет</div>
+					<a class="btn_intro btn_command" href="#" data-modal="#popup">Записаться на прием</a>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 col-xl-4 items_img_command">
+					<img class="command_scrin" src="images/Command/img2.png" alt="img2">
+
+					<div class="name_command">Переяслова Юлия</div>
+					<div class="professio_command">Врач - офтальмолог общей практики,
+						1-й категории, стаж 10 лет</div>
+					<a class="btn_intro btn_command" href="#" data-modal="#popup">Записаться на прием</a>
+				</div>
+
+				<div class="col-11 col-sm-8 col-md-6 col-lg-4 col-xl-4 items_img_command">
+					<img class="command_scrin" src="images/Command/img3.png" alt="img3">
+
+					<div class="name_command">Бабанина Екатерина</div>
+					<div class="professio_command">Врач - офтальмолог общей практики,
+						1-й категории, стаж 42 года
+					</div>
+					<a class="btn_intro btn_command" href="#" data-modal="#popup">Записаться на прием</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Наши сертификаты-->
+	<section class="certificates_wsp" id="certificates">
+		<div class="container">
+			<div class="col-12 site_zir_container">
+				<h3 class="zir_title_h3">
+					Наши
+				</h3>
+				<p class="zir_text">сертификаты</p>
+			</div>
+
+			<div class="row">
+				<div class="owl-carousel" id="slider3">
+					<div class="col items_sertificat">
+						<img class="certificat_img" src="images/Certificates/img1.jpg" alt="img1">
+						<p class="title_certificat">Название сертификата</p>
+					</div>
+
+					<div class="col items_sertificat">
+						<img class="certificat_img" src="images/Certificates/img2.jpg" alt="img2">
+						<p class="title_certificat">Название сертификата</p>
+					</div>
+
+					<div class="col items_sertificat">
+						<img class="certificat_img" src="images/Certificates/img3.jpg" alt="img3">
+						<p class="title_certificat">Название сертификата</p>
+					</div>
+
+					<div class="col items_sertificat">
+						<img class="certificat_img" src="images/Certificates/img3.jpg" alt="img3">
+						<p class="title_certificat">Название сертификата</p>
+					</div>
+				</div>
+
+				<div class="col-10 col-sm-5 col-md-4 col-lg-3 col-xl-4 certificat-arrow">
+					<button class="reviews-arrow__btn" id="slider3_left">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<div class="dots-certificat"></div>
+					<button class="reviews-arrow__btn" id="slider3_right">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!--Карта-->
+	<section class="map_contact" id="contact">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-12 col-xl-4 media_map">
+					<div class="col-12 site_zir_container map_title">
+						<h3 class="zir_title_h3">
+							Наши
+						</h3>
+						<p class="zir_text">контакты</p>
+					</div>
+
+					<ul>
+						<li class="list_title_map">г. Днепр</li>
+						<li><a href="#">ул. Троицкая, 3а</a></li>
+						<li><a href="#">ул. Паникахи, 28 (ж.м. Тополь - 2)</a></li>
+						<li><a href="#">бул. Славы, 7 (ж.м. Победа - 6)</a></li>
+						<li><a href="#">пл. Соборная, 4 (в здании Медакадемии)</a></li>
+						<li><a href="#">пр. Гагарина, 10</a></li>
+						<li><a href="#">пр. Б. Хмельницкого, 118а (КСК "Шинник")</a></li>
+					</ul>
+
+					<ul>
+						<li class="list_title_map">г. Кривой Рог</li>
+						<li><a href="#">ул. Соборности, 22 (Соцгород)</a></li>
+						<li><a href="#">ул. Мусоргского, 6 (44 квартал)</a></li>
+					</ul>
+
+					<ul>
+						<li class="list_title_map">г. Каменское</li>
+						<li><a href="#">бул. Строителей, 23 (1-я горполиклиника)</a></li>
+					</ul>
+
+					<ul class="contact_map">
+						<li>
+							<a href="tel:+380963171519">+38 096 317 15 19</a>
+						</li>
+						<li>
+							<a href="#">chudozirl@gmail.com</a>
+						</li>
+					</ul>
+
+					<div class="title_point">
+						<span>Остались вопросы?</span>
+
+						<p>Наш специалист ответит
+							на них в течение 15 мин</p>
+
+						<a class="btn_intro btn_map" href="#" data-modal="#popup">Задать вопрос</a>
+					</div>
+				</div>
+
+				<div class="col-md-12 col-xl-8">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+							<img class="map_scrin" src="images/Map/img.jpg" alt="img">
+						</div>
+						<div class="col-12 col-md-6 col-lg-6 col-xl-6">
+							<img class="map_scrin" src="images/Map/img1.jpg" alt="img1">
+						</div>
+					</div>
+					<div id="map"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Footer-->
+	<footer>
+		<div class="container">
+			<div class="row footer_container">
+				<div class="col-6 col-md-3 col-lg-3 col-xl-3 header_logo_wp">
+					<a href="#" data-scroll="#intro">
+						<img src="images/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="col-8 col-md-5 col-lg-4 col-xl-4 footer_copy">
+					<a class="copy_footer_title" href="#">Политика конфиденциальности</a>
+					<p>&copy; <span>2020</span> “Чудовий зiр”. Все права защищены</p>
+				</div>
+
+				<div class="col-7 col-md-4 col-lg-3 col-xl-3 project_footer">
+					<p>Проект
+						разработан:</p>
+					<a href="#">
+						<img src="images/logo2.png" alt="logo2">
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!--Путь к папке-->
+	<script src="js/jQuery.js"></script>
+	<script src="js/map.js"></script>
+	<script src="js/form.js"></script>
+
+	<script src="owlcarousel/dist/owl.carousel.min.js"></script>
+
+	<!--Скрипт карты-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2YaUn0CnnsHi7-pMS9m8QjwQYCnFuACs&callback=initMap" async defer>
+	</script>
+
+</body>
+
+</html>
