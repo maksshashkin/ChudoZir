@@ -121,8 +121,7 @@ header:before {
 	height: 4px;
 	display: inline-block;
 	background: #fff;
-	top: 50%;
-	transform: translateY(-50%);
+	top: -8%;
 	transition: .7s
 }
 
